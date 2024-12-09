@@ -51,7 +51,7 @@ function App() {
       <span className="counter">
         Nombre de cartes dans ma collection : {cardCount}
       </span>
-      <ul>
+      <ul className="button_type">
         <li>
           <button onClick={() => setSelectedType("all")}>Tout</button>
         </li>
